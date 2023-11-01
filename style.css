@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+    font-size: 24px;
+    height: 40px;
+    width: 141px;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(0, 100, 0);
+    border: none;
+    border-radius: 15px;
+    box-shadow:0 5px 0 #3e8e41;
+}
+
+img {
+    margin-top: 6rem;
+    height: 300px;
+}
+
+.circulo {
+    position: absolute;
+    background-color: white;
+    border: 1px solid rgb(235, 235, 235);
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+#lamp {
+    transform:rotate(180deg); /* Chrome, Safari, Opera */
+    
+}
+
+button:hover {background-color: #3e8e41}
